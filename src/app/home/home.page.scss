@@ -1,27 +1,24 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  ion-content ion-toolbar {
+    --background: translucent;
+  }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+  .background-img {
+    //--background: url(../../assets/chat.jpg);
+    //--background:rgb(172, 172, 172);
+    //--background:linear-gradient(rgb(75, 186, 231), rgb(7, 246, 146));
+    //--background: rgb(75, 186, 231);
+    --background: #e8f3f9;
+  }
+*
+  .bt-stile {
+    margin-top: -4px;
+    height: 50%;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+  .background-color {
+    --background:rgb(114, 106, 106);
+    --color:rgb(255, 255, 255);
+  }

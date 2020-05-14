@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFirestoreModule, AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuth } from '@angular/fire/auth';
+import { QRScanner } from '@ionic-native/qr-scanner/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -31,6 +32,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     AngularFireAuth,
     AngularFirestore,
+    QRScanner
   ],
   bootstrap: [AppComponent]
 })
